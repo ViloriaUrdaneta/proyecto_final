@@ -31,3 +31,7 @@ font {
     width: 2rem;
     height: 2rem;
 }
+
+a {
+    text-decoration: none;
+}
