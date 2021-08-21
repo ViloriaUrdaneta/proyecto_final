@@ -26,3 +26,8 @@ li {
 font {
     font-family: 'Nunito', sans-serif;
 }
+
+.logo {
+    width: 2rem;
+    height: 2rem;
+}
