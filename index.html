@@ -6,30 +6,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!--css-->
     <link rel="stylesheet" href="./assets/css/styles.css">
+    <!--bootstrap4.6-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+    <!--icons-->
+    <script src="https://kit.fontawesome.com/67ab9c868e.js" crossorigin="anonymous"></script>
+
 </head>
 
-<body class="bg">
+
+<body class="text-light bg-dark">
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <i class="fas fa-passport fa-3x"></i>
+            <a class="navbar-brand ml-3" href="#">
+                Viajes Chile </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item active">
                         <a class="nav-link" href="#">Features</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item active">
                         <a class="nav-link" href="#">Pricing</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item active">
                         <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
                     </li>
                 </ul>
@@ -39,36 +51,23 @@
 
     <!--header-->
     <header>
-        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="./assets/img/atacama.jpg" class="d-block w-100" alt="atacama">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h3>Hola</h3>
-                        <p>Soy Miguel Viloria</p>
-                    </div>
+                    <img src="./assets/img/carousel1.jpg" class="d-block w-100" alt="carousel1">
                 </div>
                 <div class="carousel-item">
-                    <img src="./assets/img/santiago.jpg" class="d-block w-100" alt="santiago">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h3>Estoy estudiando Diseño UX/UI</h3>
-                        <p>No está fácil.</p>
-                    </div>
+                    <img src="./assets/img/carousel2.jpg" class="d-block w-100" alt="carousel2">
                 </div>
                 <div class="carousel-item">
-                    <img src="./assets/img/yerbaloca.jpg" class="d-block w-100" alt="yerbaloca">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h3>Pero,</h3>
-                        <p>mano, tengo fé.</p>
-                    </div>
+                    <img src="./assets/img/carousel3.jpg" class="d-block w-100" alt="carousel3">
                 </div>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
             </a>
-            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
@@ -77,51 +76,118 @@
     </header>
 
     <!--text-->
-    <div class="container">
-        <h2 class="text-center m-5">
+    <section class="container">
+        <h1 class="text-center m-5">
             Lorem ipsum
-        </h2>
+        </h1>
         <hr>
         <div class="row">
-            <div class="col-4">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, veritatis soluta excepturi incidunt eum placeat consequuntur, cumque hic culpa perspiciatis esse, dolorum dolore sunt blanditiis autem voluptate alias! Exercitationem, voluptas! Lorem ipsum
-                dolor, sit amet consectetur adipisicing elit. Accusamus error illum quaerat impedit et sapiente vero cupiditate porro, qui earum. Sunt eum esse sapiente corporis debitis assumenda eligendi aut ullam.
+            <div class="col-4 font">
+                <div class="bg-info text-center text-dark"><i class="fas fa-umbrella-beach"></i></div>
+                <p class="mt-3">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, veritatis soluta excepturi incidunt eum placeat consequuntur, cumque hic culpa perspiciatis esse, dolorum dolore sunt blanditiis autem voluptate alias! Exercitationem, voluptas! Lorem ipsum
+                    dolor, sit amet consectetur adipisicing elit. Accusamus error illum quaerat impedit et sapiente vero cupiditate porro, qui earum. Sunt eum esse sapiente corporis debitis assumenda eligendi aut ullam.
+                </p>
             </div>
-            <div class="col-4">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi a eum fugit cum excepturi repellendus, facilis corporis voluptate iusto quia earum. Est nobis temporibus delectus expedita, ullam sequi repellat doloribus! Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Recusandae aperiam nam sunt, suscipit asperiores accusamus in modi! Maiores, deserunt at. Cum eligendi delectus, necessitatibus dignissimos dolorem alias repudiandae quidem quisquam.
+            <div class="col-4 font">
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi a eum fugit cum excepturi repellendus, facilis corporis voluptate iusto quia earum. Est nobis temporibus delectus expedita, ullam sequi repellat doloribus! Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Recusandae aperiam nam sunt, suscipit asperiores accusamus in modi! Maiores, deserunt at. Cum eligendi delectus, necessitatibus dignissimos dolorem alias repudiandae quidem quisquam.
+                </p>
+                <div class="bg-info text-center text-dark"><i class="fas fa-tram"></i>
+
+                </div>
             </div>
-            <div class="col-4">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet voluptatum obcaecati nostrum iste dolor aliquid ipsa numquam incidunt quam, vel dicta laborum perspiciatis, alias minima quis, ab praesentium laboriosam dolorem. Lorem ipsum dolor sit amet,
-                consectetur adipisicing elit. Quae totam dicta beatae, aspernatur vel et ut quibusdam tenetur. Veniam deserunt consequuntur nihil, fugiat similique ea quia minus suscipit iure neque?
+            <div class="col-4 font">
+                <div class="bg-info text-center text-dark"><i class="fas fa-university"></i>
+
+                </div>
+                <p class="mt-3">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet voluptatum obcaecati nostrum iste dolor aliquid ipsa numquam incidunt quam, vel dicta laborum perspiciatis, alias minima quis, ab praesentium laboriosam dolorem. Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit. Quae totam dicta beatae, aspernatur vel et ut quibusdam tenetur. Veniam deserunt consequuntur nihil, fugiat similique ea quia minus suscipit iure neque?
+                </p>
             </div>
         </div>
 
-    </div>
+    </section>
 
     <!--tarjetas-->
-    <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
-        <div class="card-header">Header</div>
-        <div class="card-body">
-            <h5 class="card-title">Primary card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-    </div>
-    <div class="card text-white bg-secondary mb-3" style="max-width: 18rem;">
-        <div class="card-header">Header</div>
-        <div class="card-body">
-            <h5 class="card-title">Secondary card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-    </div>
-    <div class="card text-white bg-success mb-3" style="max-width: 18rem;">
-        <div class="card-header">Header</div>
-        <div class="card-body">
-            <h5 class="card-title">Success card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-    </div>
 
+
+    <section class="container">
+        <h1 class="text-center m-5">
+            Lorem ipsum
+        </h1>
+        <hr>
+        <div class="row">
+            <div class="card-deck mt-5">
+                <div class="card ">
+                    <img src="./assets/img/card1.jpg" class="card-img-top" alt="card1">
+                    <div class="card-body bg-info">
+                        <h5 class="card-title text-dark">Card title</h5>
+                        <p class="card-text text-dark font">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+                <div class="card ">
+                    <img src="./assets/img/card2.jpg" class="card-img-top" alt="card1">
+                    <div class="card-body bg-info">
+                        <h5 class="card-title text-dark">Card title</h5>
+                        <p class="card-text text-dark font">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+                <div class="card ">
+                    <img src="./assets/img/card3.jpg" class="card-img-top" alt="card3">
+                    <div class="card-body bg-info">
+                        <h5 class="card-title text-dark">Card title</h5>
+                        <p class="card-text text-dark font">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    </div>
+                </div>
+                <div class="card ">
+                    <img src="./assets/img/card4.jpg" class="card-img-top" alt="card4">
+                    <div class="card-body bg-info">
+                        <h5 class="card-title text-dark">Card title</h5>
+                        <p class="card-text text-dark font">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!--footer-->
+
+    <div class="card text-center mt-5">
+
+        <div class="card-body container ">
+            <h1 class="card-title text-dark">Contacto</h1>
+            <hr>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+        <div class="card-footer text-muted bg-info container-fluid">
+            <div class="container">
+                <div class="row">
+                    <h5 class="text-light font">
+                        Viajes Chile
+                    </h5>
+                    <div class="ml-auto text-light">
+                        <span>
+                        <i class="fab fa-github fa-2x mx-2 "></i>
+                    </span>
+                        <span>
+                        <i class="fab fa-twitter fa-2x mx-2"></i>
+                    </span>
+                        <span>
+                        <i class="fab fa-youtube fa-2x mx-2" ></i> 
+                    </span>
+                        </ul>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!--botstrap-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

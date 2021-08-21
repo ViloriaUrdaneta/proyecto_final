@@ -1,12 +1,28 @@
-.bg {
-    background-color: black;
+body * {
+    margin: 0;
+    padding: 0;
 }
 
-.container {
-    margin-top: 5rem;
-    color: blanchedalmond;
+nav {
+    background: rgba(73, 73, 73, 0.5);
 }
 
 hr {
-    background-color: rgb(255, 255, 255);
+    background-color: cornsilk;
+}
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+}
+
+h5 {
+    font-family: 'Roboto Slab', serif;
+}
+
+li {
+    font-family: 'Roboto Slab', serif;
+}
+
+font {
+    font-family: 'Nunito', sans-serif;
 }
